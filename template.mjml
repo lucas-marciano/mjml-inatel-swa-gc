@@ -1,0 +1,85 @@
+<mjml>
+  <mj-body>
+    <!-- Navbar -->
+    <mj-section background-color="#004e8c">
+      <mj-column>
+        <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link href="/gettings-started-onboard" color="#ffffff">ICC</mj-navbar-link>
+          <mj-navbar-link href="/try-it-live" color="#ffffff">Confluence</mj-navbar-link>
+          <mj-navbar-link href="/templates" color="#ffffff">Novos funcionários</mj-navbar-link>
+          <mj-navbar-link href="/components" color="#ffffff">Calendário</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <!-- Header -->
+    <mj-section background-color="#045eb9" background-url="img/logo2.jpg" background-size="200px" background-repeat="no-repeat">
+      <mj-column>
+        <!-- Spacer component, used to give height to the background image. -->
+        <mj-spacer height="130px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- XP -->
+    <mj-section background-color="#045eb9" background-url="img/xp12.png" background-size="cover" background-repeat="no-repeat">
+      <mj-column>
+        <!-- Spacer component, used to give height to the background image. -->
+        <mj-spacer height="400px" />
+      </mj-column>
+    </mj-section>
+
+
+     <!-- Header Posts -->
+    <mj-section background-color="#fff">
+      <mj-column>
+
+        <mj-text color="#000" align="center" font-style="bold" font-size="30px" font-family="sans-serif" padding-top="20px">
+          <span style="border-bottom: 1px solid #e3e3e3; padding-bottom: 30px">Novos posts do gestão de conhecimento</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Posts -->
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text padding="0px 0px 0px 22px" color="#000" align="left" font-style="bold" font-size="25px" font-family="sans-serif" padding-top="20px">
+            <a href="#" style="text-decoration: none; color:#004e8c">Lorem ipsum</a>
+        </mj-text>
+
+        <mj-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin rutrum enim eget magna efficitur, eu semper augue 
+          semper. Aliquam erat volutpat.</mj-text>
+
+        <!-- Novos posts -->
+        <mj-text padding="0px 0px 0px 22px" color="#000" align="left" font-style="bold" font-size="25px" font-family="sans-serif" padding-top="20px">
+            <a href="#" style="text-decoration: none; color:#004e8c">Lorem ipsum</a>
+        </mj-text>
+
+        <mj-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin rutrum enim eget magna efficitur, eu semper augue 
+          semper. Aliquam erat volutpat.</mj-text>
+          
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+        <mj-column>
+            <mj-button padding-bottom="25" href="#">Veja mais posts</mj-button>
+        </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section background-color="#004e8c">
+      <mj-column>
+      <mj-text align="center" color="#ffffff">Inatel Competence Center</mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://mjml.io/"/>
+          <mj-social-element name="google" href="https://mjml.io/"/>
+          <mj-social-element  name="instagram" href="https://mjml.io/"/>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
